@@ -1,0 +1,106 @@
+.validate-field-container {
+    font-size: 14px;
+    .label {
+        color: #2a2a2a;
+        margin-bottom: 5px;
+        &.flat-text {
+            color: #9b9b9b;
+        }
+    }
+    .error-message {
+        margin-top: 5px;
+        color: $appRed;
+    }
+    .flat-content {
+        font-size: 14px;
+        line-height: 30px;
+        word-wrap: break-word;
+        width: 100%;
+        display: block;
+    }
+    .select-option {
+        line-height: 36px;
+        cursor: pointer;
+        &.is-focused {
+            background-color: #fafafa;
+        }
+    }
+    .Select-value {
+        padding-right: 20px !important;
+    }
+    .empty-result {
+        font-style: italic;
+        color: #a5a5a5;
+        font-size: 12px;
+        text-align: center;
+        line-height: 28px;
+        padding: 0 10px;
+    }
+    .add-new-content {
+        text-align: center;
+        .add-new-button {
+            margin: 0 auto 10px;
+            font-size: 12px;
+            background-color: $appBlue;
+            width: calc(100% - 20px);
+            line-height: 26px;
+            height: 30px;
+        }
+    }
+    .uppercase {
+        text-transform: uppercase;
+    }
+    .select-checkbox {
+        margin-left: 15px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .select-content {
+        padding: 0 10px;
+        display: inline-block;
+        vertical-align: middle;
+        overflow-wrap: break-word;
+        width: calc(100% - 50px);
+    }
+
+    .alert-content {
+        display: block;
+        width: 100%;
+        height: 56px;
+        border-radius: 4px;
+        background-color: $white;
+        border: 1px solid rgba(155, 155, 155, 0.2);
+        .alert-icon {
+            display: inline-block;
+            vertical-align: middle;
+            width: 50px;
+            height: 100%;
+            border-right: 1px solid #ebebeb;
+            text-align: center;
+            font-size: 25px;
+            i {
+                color: $appBlue;
+                line-height: 52px;
+            }
+        }
+        .alert-text {
+            display: inline-block;
+            vertical-align: middle;
+            width: calc(100% - 55px);
+            padding-left: 10px;
+            line-height: 22px;
+            color: rgba(0, 0, 0, 0.7);
+            font-family: $appBoldFont;
+        }
+        .cross-icon {
+            display: inline-block;
+            vertical-align: top;
+            width: 40px;
+            text-align: center;
+            font-size: 10px;
+            i {
+                line-height: 52px;
+            }
+        }
+    }
+}

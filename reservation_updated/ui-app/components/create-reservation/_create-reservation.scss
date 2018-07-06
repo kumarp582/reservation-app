@@ -1,0 +1,18 @@
+.create-reservation {
+    height: 100%;
+    .module-heading {
+        font-size: 18px;
+        font-family: $appBoldFont;
+        line-height: 50px;
+        float: left;
+        width: 50%;
+    }
+    .fk-button {
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    .input-field {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+}

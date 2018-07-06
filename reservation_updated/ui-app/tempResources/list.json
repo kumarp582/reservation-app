@@ -1,0 +1,37 @@
+{
+    "reservations": [
+        {
+            "arrivalDate": "2018-04-16T21:02:35.740Z",
+            "_id": "5ad50f6b95518c070dacc318",
+            "name": "Testing",
+            "reservationId": 1,
+            "hotelName": "Taj",
+            "departureDate": "2018-07-01T18:30:00.000Z",
+            "__v": 0
+        }, {
+            "arrivalDate": "2018-04-16T21:02:35.740Z",
+            "_id": "5ad50f6b95518c070dacc318",
+            "name": "Testing",
+            "reservationId": 2,
+            "hotelName": "Taj",
+            "departureDate": "2018-07-01T18:30:00.000Z",
+            "__v": 0
+        }, {
+            "arrivalDate": "2018-04-16T21:02:35.740Z",
+            "_id": "5ad50f6b95518c070dacc318",
+            "name": "Testing",
+            "reservationId": 3,
+            "hotelName": "Taj",
+            "departureDate": "2018-07-01T18:30:00.000Z",
+            "__v": 0
+        }, {
+            "arrivalDate": "2018-04-16T21:02:35.740Z",
+            "_id": "5ad50f6b95518c070dacc318",
+            "name": "Testing",
+            "reservationId": 4,
+            "hotelName": "Taj",
+            "departureDate": "2018-07-01T18:30:00.000Z",
+            "__v": 0
+        }
+    ]
+}

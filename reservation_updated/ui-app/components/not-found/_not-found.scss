@@ -1,0 +1,36 @@
+.not-found-container {
+    height: 100%;
+    .image-section {
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+        height: 100%;
+        text-align: right;
+        img {
+            position: relative;
+            transform: translateY(-50%);
+            top: 50%;
+            padding-right: 30px;
+        }
+    }
+    .text-section {
+        color: #5a5a5a;
+        display: inline-block;
+        width: 50%;
+        height: 100%;
+        padding: 0 60px 0 30px;
+        .details {
+            position: relative;
+            transform: translateY(-50%);
+            top: 50%;
+        }
+        .heading {
+            font-family: $appBoldFont;
+            font-size: 24px;
+            line-height: 40px;
+        }
+        .description {
+            font-size: 18px;
+        }
+    }
+}

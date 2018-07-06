@@ -1,0 +1,31 @@
+.info-container {
+    padding: 0 20px;
+    height: 100%;
+    .module-heading {
+        font-size: 18px;
+        font-family: $appBoldFont;
+        line-height: 50px;
+        float: left;
+        width: 50%;
+    }
+    .reservation-details {
+        .row {
+            display: flex;
+            width: 500px;
+            line-height: 36px;
+            .label {
+                display: flex;
+                flex: 0.5;
+                border: 1px solid #eeeeee;
+                padding: 0 10px;
+            }
+            .value {
+                padding: 0 10px;
+                display: flex;
+                flex: 0.5;
+                border: 1px solid #eeeeee;
+                border-left: 0;
+            }
+        }
+    }
+}

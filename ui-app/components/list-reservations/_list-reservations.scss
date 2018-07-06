@@ -1,0 +1,31 @@
+.cli-users-container {
+    padding: 0 20px;
+    height: 100%;
+    .module-heading {
+        font-size: 18px;
+        font-family: $appBoldFont;
+        line-height: 50px;
+        float: left;
+        width: 50%;
+    }
+    .actions {
+        float: right;
+        line-height: 50px;
+    }
+    .filters {
+        margin-bottom: 20px;
+        .input-field {
+            margin-right: 10px;
+            vertical-align: bottom;
+            display: inline-block;
+        }
+    }
+    .fk-button {
+        line-height: 32px;
+        height: 32px;
+        vertical-align: bottom;
+    }
+    .my-react-table {
+        height: calc(100% - 140px);
+    }
+}
